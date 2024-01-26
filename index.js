@@ -8,7 +8,6 @@ const port = 3000;
 
 // HTTP API Access
 const HttpsProxyAgent = require('https-proxy-agent');
-const request = require('request');
 const proxy = "http://dz5bgkpot6vs7f:edymozx5jpa4uypp02kova71n@us-east-static-04.quotaguard.com:9293";
 const agent = new HttpsProxyAgent(proxy);
 request({
