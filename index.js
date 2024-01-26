@@ -11,7 +11,7 @@ const HttpsProxyAgent = require('https-proxy-agent');
 const proxy = "http://dz5bgkpot6vs7f:edymozx5jpa4uypp02kova71n@us-east-static-04.quotaguard.com:9293";
 const agent = new HttpsProxyAgent(proxy);
 request({
-	uri: "https://example.com/api",
+	uri: "https://palworld-272e80a976ec.herokuapp.com",
 	method: "POST",
 	headers: {
 		'content-type': 'application/x-www-form-urlencoded'
