@@ -7,10 +7,10 @@ const app = express();
 const port = 3000;
 
 // HTTP API Access
-var HttpsProxyAgent = require('https-proxy-agent');
-var request = require('request');
-var proxy = "http://dz5bgkpot6vs7f:edymozx5jpa4uypp02kova71n@us-east-static-04.quotaguard.com:9293";
-var agent = new HttpsProxyAgent(proxy);
+const HttpsProxyAgent = require('https-proxy-agent');
+const request = require('request');
+const proxy = "http://dz5bgkpot6vs7f:edymozx5jpa4uypp02kova71n@us-east-static-04.quotaguard.com:9293";
+const agent = new HttpsProxyAgent(proxy);
 request({
 	uri: "https://example.com/api",
 	method: "POST",
